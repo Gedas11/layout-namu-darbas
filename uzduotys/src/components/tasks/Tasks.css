@@ -3,10 +3,17 @@
     background-color: rgb(228, 228, 228);
     
 }
+.nav{
+    margin-right: 55px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .h{
     margin-left: 20px;
 }
 .welcome{
+    margin-top: -40px;
+    margin-bottom: 2%;
     padding-top: 10px;
     padding-bottom: 10px;
    border-radius: 5px;
@@ -15,11 +22,13 @@
     
 }
 .zalias{
+    
+    padding-top: 20px;
     width: 290px;
     height: 310px;
-    background-color: seagreen;
+    background-color: rgb(57, 136, 125);
     border-radius: 5%;
-    color: rgba(209, 209, 209, 0.664);
+    color: #fff;
     margin-left: 15%;
     
 }

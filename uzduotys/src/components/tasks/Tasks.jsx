@@ -5,58 +5,28 @@ import Task from "../tasks/Tasks";
 function Tasks() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                >
-                  Disabled
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+
+<ul className="nav justify-content-end " >
+          <li className="nav-item">
+            <a className="nav-link active " href="#">Home</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link " href="#">About</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link " href="#">Work</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link " href="#">Contact</a>
+          </li>
+         
+        </ul>
       <Container>
-        <div className="col-12 welcome">
-          <h2 className="h">Welcome</h2>
-        </div>
+        
         <div className="row ">
+        <div className="col-12 welcome">
+          <h2 className="h">Welcome !</h2>
+        </div>
           <div className="col-8 text">
             <p>
               Laboris veniam id commodo imitarentur. Nescius multos hic deserunt
